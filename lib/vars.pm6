@@ -1,6 +1,6 @@
 use v6.c;
 
-module vars:ver<0.0.1>:auth<cpan:ELIZABETH> { }
+module vars:ver<0.0.2>:auth<cpan:ELIZABETH> { }
 
 sub EXPORT(*@vars) {
     my %export;
@@ -14,7 +14,7 @@ sub EXPORT(*@vars) {
               ?? %()
               !! @huh.push($name)
     }
-    die "Don't know how to export: @huh" if @huh;
+    die "Don't know how to export: @huh[]" if @huh;
 
     %export
 }
