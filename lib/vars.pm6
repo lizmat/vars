@@ -1,6 +1,6 @@
 use v6.c;
 
-module vars:ver<0.0.2>:auth<cpan:ELIZABETH> { }
+module vars:ver<0.0.3>:auth<cpan:ELIZABETH> { }
 
 sub EXPORT(*@vars) {
     my %export;
@@ -23,7 +23,7 @@ sub EXPORT(*@vars) {
 
 =head1 NAME
 
-vars - Port of Perl 5's pragma to predeclare sub names to Perl 6
+vars - Port of Perl 5's pragma to predeclare variables to Perl 6
 
 =head1 SYNOPSIS
 
@@ -47,11 +47,6 @@ moment of this writing: 2018.05) to export to the OUR:: stash from a module.
 Therefore the Perl 6 version of this module exports to the B<lexical> scope
 in which the C<use> command occurs.  For most standard uses, this is equivalent
 to the Perl 5 behaviour.
-
-If you really want to create stubs in the C<OUR::> stash, you can run the
-following code in your program:
-
-  BEGIN OUR::{$_} := sub { ... } for <$frob @mung %seen>;
 
 =head1 AUTHOR
 

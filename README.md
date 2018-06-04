@@ -3,7 +3,7 @@
 NAME
 ====
 
-vars - Port of Perl 5's pragma to predeclare sub names to Perl 6
+vars - Port of Perl 5's pragma to predeclare variables to Perl 6
 
 SYNOPSIS
 ========
@@ -23,10 +23,6 @@ PORTING CAVEATS
 ===============
 
 Due to the nature of the export mechanism in Perl 6, it is impossible (at the moment of this writing: 2018.05) to export to the OUR:: stash from a module. Therefore the Perl 6 version of this module exports to the **lexical** scope in which the `use` command occurs. For most standard uses, this is equivalent to the Perl 5 behaviour.
-
-If you really want to create stubs in the `OUR::` stash, you can run the following code in your program:
-
-    BEGIN OUR::{$_} := sub { ... } for <$frob @mung %seen>;
 
 AUTHOR
 ======
