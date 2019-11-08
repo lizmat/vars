@@ -1,9 +1,7 @@
-[![Build Status](https://travis-ci.org/lizmat/vars.svg?branch=master)](https://travis-ci.org/lizmat/vars)
-
 NAME
 ====
 
-vars - Port of Perl 5's pragma to predeclare variables to Perl 6
+vars - Port of Perl's pragma to predeclare variables to Raku
 
 SYNOPSIS
 ========
@@ -22,7 +20,7 @@ See "Pragmatic Modules" in perlmodlib and "strict vars" in strict.
 PORTING CAVEATS
 ===============
 
-Due to the nature of the export mechanism in Perl 6, it is impossible (at the moment of this writing: 2018.05) to export to the OUR:: stash from a module. Therefore the Perl 6 version of this module exports to the **lexical** scope in which the `use` command occurs. For most standard uses, this is equivalent to the Perl 5 behaviour.
+Due to the nature of the export mechanism in raku, it is impossible (at the moment of this writing: 2018.05) to export to the OUR:: stash from a module. Therefore the raku version of this module exports to the **lexical** scope in which the `use` command occurs. For most standard uses, this is equivalent to the Perl behaviour.
 
 AUTHOR
 ======
@@ -34,9 +32,9 @@ Source can be located at: https://github.com/lizmat/vars . Comments and Pull Req
 COPYRIGHT AND LICENSE
 =====================
 
-Copyright 2018 Elizabeth Mattijsen
+Copyright 2018-2019 Elizabeth Mattijsen
 
-Re-imagined from Perl 5 as part of the CPAN Butterfly Plan.
+Re-imagined from Perl as part of the CPAN Butterfly Plan.
 
 This library is free software; you can redistribute it and/or modify it under the Artistic License 2.0.
 

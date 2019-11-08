@@ -2,6 +2,9 @@ Revision history for vars
 
 {{$NEXT}}
 
+0.0.4  2019-11-08T23:18:43+01:00
+    - changed reference from Perl 6 to Raku, and Perl 5 to Perl
+
 0.0.3  2018-06-04T15:50:48+02:00
     - Fixed title of module (copy-pasto from 'subs')
     - Removed pod about assigning to OUR:: at compile time: it doesn't work
