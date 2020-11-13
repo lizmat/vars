@@ -1,6 +1,6 @@
-use v6.c;
+use v6.*;
 
-module vars:ver<0.0.4>:auth<cpan:ELIZABETH> { }
+module vars:ver<0.0.5>:auth<cpan:ELIZABETH> { }
 
 sub EXPORT(*@vars) {
     my %export;
@@ -23,13 +23,16 @@ sub EXPORT(*@vars) {
 
 =head1 NAME
 
-vars - Port of Perl's pragma to predeclare variables to Raku
+Raku port of Perl's 'vars' pragma
 
 =head1 SYNOPSIS
 
     use vars <$frob @mung %seen>;
 
 =head1 DESCRIPTION
+
+This module tries to mimic the behaviour of Perl's C<vars> pragma
+as closely as possible in the Raku Programming Language.
 
 This will predeclare all the subroutine whose names are in the list,
 allowing you to use them without parentheses even before they're declared.
@@ -57,7 +60,7 @@ Pull Requests are welcome.
 
 =head1 COPYRIGHT AND LICENSE
 
-Copyright 2018-2019 Elizabeth Mattijsen
+Copyright 2018-2020 Elizabeth Mattijsen
 
 Re-imagined from Perl as part of the CPAN Butterfly Plan.
 
@@ -65,4 +68,4 @@ This library is free software; you can redistribute it and/or modify it under th
 
 =end pod
 
-# vim: ft=perl6 expandtab sw=4
+# vim: expandtab shiftwidth=4

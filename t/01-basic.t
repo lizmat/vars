@@ -1,4 +1,4 @@
-use v6.c;
+use v6.*;
 use Test;
 
 BEGIN my @vars = <$frob @mung %seen>;
@@ -22,4 +22,4 @@ ok %seen     ~~ Hash,   'is %seen a Hash';
     ok $exception-seen, 'did we see an exception with zinkfnob';
 }
 
-# vim: ft=perl6 expandtab sw=4
+# vim: expandtab shiftwidth=4
