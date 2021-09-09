@@ -1,5 +1,5 @@
 {
-  "auth": "cpan:ELIZABETH",
+  "auth": "zef:lizmat",
   "authors": [
     "Elizabeth Mattijsen"
   ],
@@ -12,7 +12,7 @@
   "name": "vars",
   "perl": "6.c",
   "provides": {
-    "vars": "lib/vars.pm6"
+    "vars": "lib/vars.rakumod"
   },
   "resources": [
   ],
@@ -23,5 +23,5 @@
   ],
   "test-depends": [
   ],
-  "version": "0.0.5"
+  "version": "0.0.6"
 }

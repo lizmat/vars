@@ -2,6 +2,12 @@ Revision history for vars
 
 {{$NEXT}}
 
+0.0.6  2021-09-09T21:14:16+02:00
+    - Change file extension to .rakumod
+    - Migrate to zef ecosystem
+    - Update email address
+    - Update copyright year
+
 0.0.5  2020-11-13T13:19:54+01:00
     - Change name of distribution
     - Force to highest possible Raku version

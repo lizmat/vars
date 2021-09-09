@@ -1,6 +1,6 @@
 use v6.*;
 
-module vars:ver<0.0.5>:auth<cpan:ELIZABETH> { }
+module vars:ver<0.0.6>:auth<zef:lizmat> { }
 
 sub EXPORT(*@vars) {
     my %export;
@@ -53,14 +53,14 @@ to the Perl behaviour.
 
 =head1 AUTHOR
 
-Elizabeth Mattijsen <liz@wenzperl.nl>
+Elizabeth Mattijsen <liz@raku.rocks>
 
 Source can be located at: https://github.com/lizmat/vars . Comments and
 Pull Requests are welcome.
 
 =head1 COPYRIGHT AND LICENSE
 
-Copyright 2018-2020 Elizabeth Mattijsen
+Copyright 2018, 2019, 2020, 2021 Elizabeth Mattijsen
 
 Re-imagined from Perl as part of the CPAN Butterfly Plan.
 
