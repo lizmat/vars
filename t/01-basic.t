@@ -12,14 +12,15 @@ ok $frob.VAR ~~ Scalar, 'is $frob a scalar container';
 ok @mung     ~~ Array,  'is @mung an Array';
 ok %seen     ~~ Hash,   'is %seen a Hash';
 
+my $exception-seen;
 {
-    my $exception-seen;
     EVAL 'use vars <zinkfnob>';
-    CATCH { default {
-        $exception-seen = True if $_.Str.contains('zinkfnob');
-        .resume
-    } }
-    ok $exception-seen, 'did we see an exception with zinkfnob';
+    CATCH {
+        default {
+            $exception-seen = True if $_.Str.contains('zinkfnob');
+        }
+    }
 }
+ok $exception-seen, 'did we see an exception with zinkfnob';
 
 # vim: expandtab shiftwidth=4

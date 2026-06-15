@@ -8,7 +8,9 @@ Raku port of Perl's 'vars' pragma
 SYNOPSIS
 ========
 
-    use vars <$frob @mung %seen>;
+```raku
+use vars <$frob @mung %seen>;
+```
 
 DESCRIPTION
 ===========
@@ -24,19 +26,21 @@ See "Pragmatic Modules" in perlmodlib and "strict vars" in strict.
 PORTING CAVEATS
 ===============
 
-Due to the nature of the export mechanism in raku, it is impossible (at the moment of this writing: 2018.05) to export to the OUR:: stash from a module. Therefore the raku version of this module exports to the **lexical** scope in which the `use` command occurs. For most standard uses, this is equivalent to the Perl behaviour.
+Due to the nature of the export mechanism in Raku, it is impossible (at the moment of this writing: 2026.05) to export to the OUR:: stash from a module. Therefore the raku version of this module exports to the **lexical** scope in which the `use` command occurs. For most standard uses, this is equivalent to the Perl behaviour.
 
 AUTHOR
 ======
 
 Elizabeth Mattijsen <liz@raku.rocks>
 
-Source can be located at: https://github.com/lizmat/vars . Comments and Pull Requests are welcome.
+Source can be located at: https://codeberg.org/lizmat/vars . Comments and Pull Requests are welcome.
+
+If you like this module, or what I'm doing more generally, committing to a [small sponsorship](https://github.com/sponsors/lizmat/) would mean a great deal to me!
 
 COPYRIGHT AND LICENSE
 =====================
 
-Copyright 2018, 2019, 2020, 2021 Elizabeth Mattijsen
+Copyright 2018, 2019, 2020, 2021, 2026 Elizabeth Mattijsen
 
 Re-imagined from Perl as part of the CPAN Butterfly Plan.
 

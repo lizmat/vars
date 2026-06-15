@@ -1,6 +1,13 @@
 Revision history for vars
 
 {{$NEXT}}
+    - Move repo to Codeberg
+    - Modernize META
+    - Add coverage testing
+    - Add sponsoring button / message
+    - Fix error in test that showed up before the 2026.06
+      release of Rakudo
+    - Update copyright year
 
 0.0.6  2021-09-09T21:14:16+02:00
     - Change file extension to .rakumod
@@ -18,7 +25,8 @@ Revision history for vars
 
 0.0.3  2018-06-04T15:50:48+02:00
     - Fixed title of module (copy-pasto from 'subs')
-    - Removed pod about assigning to OUR:: at compile time: it doesn't work
+    - Removed pod about assigning to OUR:: at compile time:
+      it doesn't work
 
 0.0.2  2018-06-03T14:50:57+02:00
     - Made sure we show problematic imports correctly

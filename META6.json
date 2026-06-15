@@ -10,13 +10,18 @@
   "description": "Raku port of Perl's 'vars' pragma",
   "license": "Artistic-2.0",
   "name": "vars",
-  "perl": "6.c",
   "provides": {
     "vars": "lib/vars.rakumod"
   },
+  "raku": "6.c",
   "resources": [
   ],
-  "source-url": "https://github.com/lizmat/vars.git",
+  "source-url": "https://codeberg.org/lizmat/vars.git",
+  "support": {
+    "bugtracker": "https://codeberg.org/lizmat/vars/issues",
+    "email": "liz@raku.rocks",
+    "source": "https://codeberg.org/lizmat/vars.git"
+  },
   "tags": [
     "UTILS",
     "CPAN5"
