@@ -1,6 +1,8 @@
 Revision history for vars
 
 {{$NEXT}}
+
+0.0.7  2026-06-15T16:19:22+02:00
     - Move repo to Codeberg
     - Modernize META
     - Add coverage testing
