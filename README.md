@@ -1,4 +1,4 @@
-[![Actions Status](https://github.com/lizmat/vars/workflows/test/badge.svg)](https://github.com/lizmat/vars/actions)
+[![Actions Status](https://github.com/lizmat/vars/actions/workflows/linux.yml/badge.svg)](https://github.com/lizmat/vars/actions) [![Actions Status](https://github.com/lizmat/vars/actions/workflows/macos.yml/badge.svg)](https://github.com/lizmat/vars/actions) [![Actions Status](https://github.com/lizmat/vars/actions/workflows/windows.yml/badge.svg)](https://github.com/lizmat/vars/actions)
 
 NAME
 ====
