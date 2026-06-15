@@ -4,7 +4,7 @@
   "specVersion": "1.6",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-06-15T14:19:56+00:00",
+    "timestamp": "2026-06-15T14:37:12+00:00",
     "lifecycles": [
       {
         "phase": "pre-build"
@@ -19,7 +19,7 @@
     "component": {
       "type": "library",
       "mime-type": "text/plain",
-      "bom-ref": "pkg:raku/zef:lizmat/vars@0.0.7",
+      "bom-ref": "pkg:raku/zef:lizmat/vars@0.0.8",
       "authors": [
         {
           "bom-ref": "ElizabethMattijsen",
@@ -29,7 +29,7 @@
       "publisher": "zef",
       "group": "zef:lizmat",
       "name": "vars",
-      "version": "0.0.7",
+      "version": "0.0.8",
       "description": "Raku port of Perl's 'vars' pragma",
       "scope": "required",
       "licenses": [
@@ -41,14 +41,14 @@
           }
         }
       ],
-      "purl": "pkg:raku/zef:lizmat/vars@0.0.7",
+      "purl": "pkg:raku/zef:lizmat/vars@0.0.8",
       "externalReferences": [
         {
           "url": "https://codeberg.org/lizmat/vars",
           "type": "distribution"
         },
         {
-          "url": "https://raku.land/zef:lizmat/vars?v=0.0.7",
+          "url": "https://raku.land/zef:lizmat/vars?v=0.0.8",
           "type": "documentation"
         },
         {
@@ -237,7 +237,7 @@
       "type": "distribution"
     },
     {
-      "url": "https://raku.land/zef:lizmat/vars?v=0.0.7",
+      "url": "https://raku.land/zef:lizmat/vars?v=0.0.8",
       "type": "documentation"
     },
     {

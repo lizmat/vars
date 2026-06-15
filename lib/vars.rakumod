@@ -1,6 +1,6 @@
 use v6.*;
 
-module vars:ver<0.0.7>:auth<zef:lizmat> { }
+module vars:ver<0.0.8>:auth<zef:lizmat> { }
 
 sub EXPORT(*@vars) {
     my %export;

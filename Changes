@@ -2,6 +2,9 @@ Revision history for vars
 
 {{$NEXT}}
 
+0.0.8  2026-06-15T16:36:37+02:00
+    - Fix CI badge snafu
+
 0.0.7  2026-06-15T16:19:22+02:00
     - Move repo to Codeberg
     - Modernize META
